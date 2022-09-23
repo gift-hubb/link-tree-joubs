@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+body {
+  background-color: aliceblue;
+  background: url(./src/kawaiiblue.jpg);
+  background-repeat: no-repeat;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+img {
+  width: 100%;
+}
+
+img.avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  padding: 3.7px;
+  border: #ffc4d8 solid 4px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #00082f;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.username {
+  font-family: 'Roboto Mono', monospace;
+  color: #00082f;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+
+ul li a {
+  height: 53px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  border-radius: 6px;
+  background-color: #ffc4d8;
+  margin-bottom: 16px;
+  color: #00082f ;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  transition: background 400ms;
+}
+
+ul li a:hover {
+  background: #b824b6;
+}
+
+footer {
+  font-weight: 500;
+  font-size: 15px;
+  color: #00082f;
+}
